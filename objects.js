@@ -1,7 +1,4 @@
-var playlist = {
-  artistnames: "korchach",
-  
-};
+
  
  function updatePlaylist(obj,artistname,songtitle) 
  {
