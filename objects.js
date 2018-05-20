@@ -11,7 +11,7 @@
  
  removeFromPlaylist
  
- function updatePlaylist(obj,artistname,songtitle) 
+ function removeFromPlaylist(obj,artistname) 
  {
    playlist[artistname]=songtitle
    return playlist
