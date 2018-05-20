@@ -1,10 +1,12 @@
 var playlist = {
   artistnames: "korchach",
-  songtitles: "tsbktey",
+  
 };
  
- function updatePlaylist(obj,var1,var2) 
+ function updatePlaylist(obj,artistname,songtitle) 
  {
-   playlist.artistnames=
+   obj.artistnames=songtitle
+  
+      return obj;
    
  }

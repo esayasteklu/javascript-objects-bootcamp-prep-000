@@ -1,5 +1,11 @@
 /*global describe, it */
 
+var playlist = {
+  artistnames: "korchach",
+  
+};
+ 
+
 const expect = require('chai').expect
 const babel = require('babel-core')
 const fs = require('fs')
