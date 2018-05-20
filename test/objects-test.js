@@ -1,10 +1,6 @@
 /*global describe, it */
 
-var playlist = {
-  artistnames: "korchach",
-  artistsongs:"tsbktey"
-  
-};
+var playlist = {artistName: "songTitle"}
  
 
 const expect = require('chai').expect
