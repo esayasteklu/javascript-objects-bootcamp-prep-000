@@ -13,7 +13,7 @@
  
  function removeFromPlaylist(obj,artistname) 
  {
-   playlist[artistname]=songtitle
+   delete playlist[artistname]
    return playlist
    
  }
